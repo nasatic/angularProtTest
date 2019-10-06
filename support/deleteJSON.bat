@@ -1,0 +1,1 @@
+del "%angualr2typescript%\results.*.json" /s /f  /q

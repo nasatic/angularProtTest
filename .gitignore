@@ -1,0 +1,8 @@
+/report/
+/.project
+/node_modules/
+/.idea
+**/*.iml
+/json-output-folder/
+/cucumberReport.*.json
+/logs
