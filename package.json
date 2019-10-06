@@ -26,7 +26,7 @@
     "chrome": "npm uninstall -g chromedriver && npm install -g chromedriver",
     "wdUpdate": "webdriver-manager update",
     "wdStart": "webdriver-manager start",
-    "test": "npm run wdUpdate && protractor typeScript/config/config.js",
+    "test": "protractor typeScript/config/config.js",
     "kill": "del cucumberReport.*.json, taskkill chromedriver.exe",
     "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit",
     "git": "git pull origin master && git push origin master",
